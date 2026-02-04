@@ -30,7 +30,7 @@ function App() {
         <div className="elegant-photo-frame">
           <div className="photo-border heart-beat">
             <img 
-              src="/public/7.jpeg" 
+              src="/7.jpeg" 
               alt="My Beautiful Diksha" 
               className="girlfriend-photo"
             />
@@ -109,7 +109,7 @@ function App() {
         <div className="elegant-gallery">
           {[1, 2, 3, 4, 5, 6].map((num) => (
             <div key={num} className="gallery-item">
-              <img src={`/public/${num}.jpeg`} alt={`Memory ${num}`} />
+              <img src={`/${num}.jpeg`} alt={`Memory ${num}`} />
             </div>
           ))}
         </div>
@@ -173,7 +173,7 @@ function App() {
       </div>
       
       <audio ref={audioRef} loop>
-        <source src="/public/bg.mp3" type="audio/mpeg" />
+        <source src="/bg.mp3" type="audio/mpeg" />
       </audio>
       
       <div className="section-container">
